@@ -38,7 +38,7 @@ class Star {
 		
 		pz = z;
 		
-		stroke(255, 100, 138);
+		stroke(random(255), random(255), random(255));
 		line(px, py, sx, sy);
 		
 	}
